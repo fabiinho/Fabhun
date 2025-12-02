@@ -66,3 +66,16 @@ w1:Button(
 
 
 w1:Label("Nik simple hub") -- Text
+
+
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/CheatUserzz/RobloxOpenSourceScripts/refs/heads/main/TsNotificactionSource.lua"))();
+local Notify = AkaliNotif.Notify;
+
+wait(1);
+
+Notify({
+Description = "pegue esse script diretamente do ttk, @fab.dh";
+Title = "Script executado";
+Duration = 5;
+});
+
